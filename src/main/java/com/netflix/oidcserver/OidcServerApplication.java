@@ -38,7 +38,7 @@ public class OidcServerApplication {
 
   @GetMapping("/")
   public String index() {
-    return "Hello world!";
+    return "Welcome to this simplified OIDC server by Blair Wu :)";
   }
 
   @GetMapping("/.well-known/openid-configuration")
